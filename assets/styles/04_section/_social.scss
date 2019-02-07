@@ -1,0 +1,58 @@
+#social {
+  .row {
+    align-items: center;
+  }
+  .section-header {
+    margin-bottom: 8.57rem;
+  }
+  .social-item {
+    padding: 0.05em 0;
+    display: block;
+    color: #CCCCCC;
+    text-align: center;
+    font-size: 4.57rem;
+    line-height: 1;
+    .social-icon {
+      margin-bottom: 0.5em;
+    }
+    .social-label {
+      position: relative;
+      font-size: 1rem;
+      // display: none;
+    }
+    &:hover {
+      background-color: darken(#F5F5F5, 5%);
+      text-decoration: none;
+    }
+    &.active {
+      color: #5B32C1;
+      font-size: 8rem;
+      .social-label {
+        display: block;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 578px) {
+  #social {
+    .col-30 {
+      flex: 0 0 33.3333%;
+    }
+    .section-header {
+      margin-bottom: 2em;
+    }
+    .social-item {
+      font-size: 2.5rem;
+      .social-icon {
+        margin-bottom: 0.25em;
+      }
+      .social-label {
+        font-size: 0.75rem;
+      }
+      &.active {
+        font-size: 4rem;
+      }
+    }
+  }
+}

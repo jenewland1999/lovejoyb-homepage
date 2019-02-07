@@ -1,0 +1,23 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+    Web Developer: Jordan Newland
+    Contact: jenewland1999+public@gmail.com
+    Twitter: @jenewland1999
+    From: United Kingdom
+
+    Web Designer: Jordan Newland
+    Contact: jenewland1999+public@gmail.com
+    Twitter: @jenewland1999
+    From: United Kingdom
+
+# THANKS
+
+  Hero Image by: Bench Accounting (@Bench)
+
+# TECHNOLOGY COLOPHON
+
+  HTML5, CSS3
+  Normalize.css, Bootstrap Reboot.css

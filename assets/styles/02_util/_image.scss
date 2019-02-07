@@ -1,0 +1,24 @@
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.image-circular {
+  border-radius: 100%;
+}
+
+.pos-rel {
+  position: relative;
+}
+
+.section-image-overlay {
+  position: absolute;
+  top: 0; 
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 100;
+  &.image-circular {
+    border-radius: 100%;
+  }
+}

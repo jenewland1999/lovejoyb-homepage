@@ -1,0 +1,141 @@
+.site-hero {
+  background-image: url(../media/bench-accounting.png);
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.site-header {
+  margin: 1.714em 0   ;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 300;
+  text-align: right;
+}
+
+.site-brand {
+  &:focus {
+    border: none;   
+  }
+}
+
+.site-brand h1 {
+  @include text-hide();
+  height: 75px;
+  width: 75px;
+  margin: 0;
+  float: left;
+  background-image: url(../media/logo/logo_inverse.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.btn-link {
+  display: none;      
+  opacity: 1;
+  touch-action: auto;
+  color: #CCCCCC;
+}
+
+.site-hero .content-wrapper {
+  padding: 28em 0;
+}
+
+.site-content > .container {
+  margin-top: -160px;
+}
+
+.title {
+  margin-bottom: 0.25em;
+  color: #F5F5F5;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 6rem;
+  font-weight: 300;
+  letter-spacing: 0.08em;
+  line-height: 1.38;
+  text-align: center;
+  text-transform: uppercase;
+  span {
+    color: #5B32C1;
+    font-weight: 700;
+  }
+}
+
+.summary {
+  color: #CCCCCC;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.7rem;
+  font-weight: 300;
+  text-align: center;
+  letter-spacing: 0.08em;
+}
+
+@media screen and (max-width: 576px) {
+  .site-header {
+    background-color: #5B32C1;
+    margin: 0;
+    padding: 1em 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 300;
+    text-align: center;
+  }
+  .site-brand {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-39px, -4px);
+    padding: 0.5em;
+    background-color: #5B32C1;
+    border-radius: 100%;  
+    h1 {
+      height: 64px;
+      width: 64px;
+      float: none;
+    }
+  }
+  .btn-link {
+    display: block;      
+    opacity: 1;
+    touch-action: auto;
+    color: #CCCCCC;
+    position: relative;
+    top: 0;
+    z-index: 999;
+    line-height: 1;
+    padding: 0.572em;
+    &:hover {
+      background-color: lighten(#5B32C1, 5%);
+    }
+    &:focus {
+      background-color: darken(#5B32C1, 5%);
+    }
+    i {
+      display: inline-block;
+      text-align: center;
+      font-size: 1.143rem;
+      line-height: 1;
+      height: 1em;
+      width: 1em
+    }
+  }
+  .site-hero {
+    .content-wrapper {
+      padding: 16em 0;
+    }
+  }
+  .site-content > .container {
+    margin-top: -4em;
+  }
+  .title {
+    font-size: 2.5rem;
+  }
+  .summary {
+    font-size: 0.75rem;
+  }
+}

@@ -1,0 +1,58 @@
+.site-footer {
+  background-image: url(../media/bench-accounting.png);
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #FFFFFF;
+  a {
+    color: #CCCCCC;
+  }
+  .content-wrapper {
+    padding: 100px 0;
+  }
+  .col-flex {
+    display: flex;
+    align-items: center;
+  }
+  .copyright {
+    margin: 0;
+    margin-left: 2.285em;
+    float: left;
+    color: #FFFFFF;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 1.15;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .site-footer {
+    .content-wrapper {
+      padding: 6em 0;
+    }
+    .col-flex {
+      display: block;
+      text-align: center;
+    }
+    .site-brand {
+      position: static;
+      top: initial;
+      left: initial;
+      display: block;
+      margin-bottom: 1em;
+      padding: 0;
+      background-color: transparent;
+      transform: none;
+      h1 {
+        margin: 0 auto;
+      }
+    }
+    .copyright {
+      float: none;
+      margin: 0 0 0.5rem 0;
+      font-size: 1rem;
+      font-weight: 300;
+    }
+  }
+}

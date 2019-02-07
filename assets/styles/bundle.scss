@@ -1,0 +1,27 @@
+
+:root {
+  font-size: 14px;
+}
+
+// 01_vendor
+@import '01_vendor/normalize';
+@import '01_vendor/reboot';
+
+// 02_util
+@import '02_util/image';
+@import '02_util/selection';
+@import '02_util/button';
+@import '02_util/section';
+@import '02_util/layout';
+@import '02_util/misc';
+
+// 03_component
+@import '03_component/header';
+@import '03_component/footer';
+@import '03_component/nav';
+
+// 04_section
+@import '04_section/about';
+@import '04_section/contact';
+@import '04_section/skill';
+@import '04_section/social';
